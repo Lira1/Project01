@@ -82,3 +82,84 @@ button{
 .txt2{
     height: 250px;
 }
+
+.some{
+    display: flex;
+    flex-direction: column;
+    /* background-color: crimson; */
+    height: 350px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.some .s1 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    height: 50px;
+    /* background-color: #3882f6; */
+}
+
+.some .s2 {
+    flex-grow: 3;
+    flex-shrink: 1;
+    flex-basis: auto;
+    height: 50px;
+    /* background-color:darkred; */
+}
+
+.s1{
+    justify-content: center;
+    align-items: center;
+}
+
+.some-header{
+    text-align: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.s2{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+.s2 .some-img1{
+    flex: 1;
+}
+
+.s2 .some-img2{
+    flex: 1;
+}
+.s2 .some-img3{
+    flex: 1;
+}
+
+.s2 .some-img4{
+    flex: 1;
+}
+
+.some-p{
+    text-align: center;
+}
+img{
+    max-width: 100%; /* Ajusta el tamaño máximo de la imagen al 100% del contenedor */
+    max-height: 100%; /* Ajusta la altura máxima de la imagen al 100% del contenedor */
+    height: auto;
+    width: auto;
+    display: block;
+    margin: auto;
+}
+
+.img-p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+.cita {
+    height: 300px;
+    background-color: aqua;
+}
