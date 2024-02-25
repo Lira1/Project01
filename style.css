@@ -1,0 +1,39 @@
+.header {
+    background-color: darkblue;
+    width: auto;
+    height: 200px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.logo {
+    display: flex;
+    height: 50px;
+    background-color: aqua;
+}
+
+.logo .logo1 {
+    flex: 1;
+    justify-content: space-between;
+}
+
+.site {
+    display: flex;
+    height: 150px;
+    background-color: chartreuse;
+}
+
+.site div {
+    flex: 1;
+    
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+li {
+    flex: auto;
+}
