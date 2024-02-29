@@ -86,7 +86,6 @@ button{
 .some{
     display: flex;
     flex-direction: column;
-    /* background-color: crimson; */
     height: 350px;
     padding-left: 150px;
     padding-right: 150px;
@@ -187,18 +186,58 @@ img{
 
 .call-d {
     background-color: #3882f6;
-    height: 300px;
+    height: 200px;
+    width: 1200px;
     text-align: center;
     margin: auto;
-    border: 1px dashed goldenrod;
-    
+    display: flex;
+    border-radius: 15px;
+}
+
+.call-d .call-interno1{
+    flex-grow: 1;
+    flex-shrink: 3;
+    flex-basis: 1;
+}
+
+.call-d .call-interno2{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+
+
+.call-interno2{
+    /* background-color: darkred; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .call-ph {
     font-size: 36px;
-    color: #1F2937;
+    color: #e5e7eb;
+    font-weight: bold;
+    margin-bottom: -5px;
 }
 
 .call-pt{
-    color: #1F2937;
+    color: #e5e7eb;
+}
+
+footer{
+    background-color: #1F2937;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #e5e7eb;
+    font-size: 30px;
+}
+
+.call-b {
+    height: 50px;
+    width: 100px;
+    border: 2px solid white; 
 }
