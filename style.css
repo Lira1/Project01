@@ -160,6 +160,45 @@ img{
 }
 
 .cita {
+    height: 500px;
+    background-color: #e5e7eb;
+    margin-top: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.cita-p{
+    text-align: center;
+    margin: auto;
     height: 300px;
-    background-color: aqua;
+    width: 400px;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.call-s {
+    display: flex;
+    height: 500px;
+    /*margin-top: 50px;*/
+    align-items: center;
+    justify-content: center;
+}
+
+.call-d {
+    background-color: #3882f6;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+    border: 1px dashed goldenrod;
+    
+}
+
+.call-ph {
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.call-pt{
+    color: #1F2937;
 }
